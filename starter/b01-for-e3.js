@@ -1,4 +1,4 @@
-/*****************************
+ /*****************************
  * BOUCLES ET ITÉRATIONS
  * BOUCLE = STRUCTURE DE CONTRÔLE N° 2 = MOYEN DE RÉPÉTER DES INSTRUCTIONS
  */
@@ -18,3 +18,7 @@
 EXEMPLE 3 : 
 - Affichez les nombres pairs entre 0 et 20
 */
+
+for (let i=2; i <= 20 ; i+=2){
+    console.log(i);
+}

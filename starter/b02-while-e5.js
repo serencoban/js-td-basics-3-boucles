@@ -25,9 +25,14 @@ BONUS :
 - Après avoir quitté la boucle, affichez dans la console la chaîne complète saisie par l'utilisateur en concaténant les lettres.
 */
 
+let lettre = "";
+while (lettre !== 'X'){
+    lettre = prompt('Tapez X maj sinon vous ne passerez pas')
 
-
-
+    if(lettre === "X"){
+        console.log("Félicitation ! Vous savez écrire X en majuscule")
+    }
+}
 
 // code avec le bonus
 

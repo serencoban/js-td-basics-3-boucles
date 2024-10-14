@@ -25,3 +25,18 @@
     - que se passe-t-il si vous avez déclaré i avec let ?
     - que se passe-t-il si vous déclarez i avec var ?
 */
+// il faut que le prompt soit un nbr
+
+const table=parseInt(prompt(`Je voudrais afficher les 10 premières valeurs de la table de multiplication par :`))
+console.log(`Voici les 10 premières valeurs de la table de multiplication par ${table}`)
+if(table){
+    if (table >0){   //certain que j'ai un nombre +
+        for (let i= 1; i<=10; i++ )            //table*10 donc 20
+            console.log(`${i} * ${table} = ${i*table}`)
+
+    }else {          //j'ai pas de nombre +
+        console.log('Entrez un nombre positif');
+    }
+}else {
+    console.log("Entrez un nombre")
+}
